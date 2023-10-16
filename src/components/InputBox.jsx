@@ -9,7 +9,7 @@ export default function InputBox({
 }) {
 
     return (
-        <div className="w-full bg-white p-6 rounded-lg flex items-center justify-evenly flex-wrap">
+        <div className="w-full bg-white px-10 py-6 rounded-lg flex items-center justify-evenly flex-wrap">
             <div className="flex flex-col w-1/2 gap-2">
                 <label htmlFor="amount">{label}</label>
                 <input type="number" id="amount" placeholder="Amount" value={amount} min={0} className="outline-none bg-white" 

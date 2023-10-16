@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <main className="w-screen h-screen flex items-center justify-center px-2">
-      <div className="w-full relative max-w-[550px] flex flex-col justify-center gap-4 p-8 bg-cyan-300 rounded-lg">
+      <div className="w-full relative max-w-[520px] flex flex-col justify-center gap-4 p-8 bg-slate-600 rounded-lg">
         <button id="swap" onClick={swap} className="absolute left-[45%] top-[34%] bg-blue-500 p-2 rounded-md text-white">
           <img src="https://cdn-icons-png.flaticon.com/128/7166/7166841.png" alt="swap" width={28} />
         </button>      
@@ -40,7 +40,7 @@ export default function App() {
           selectedCurrency={to}
           amountDisabled={true}
         />
-        <button className="p-4 rounded-lg bg-blue-600 text-white" onClick={convert}>Convert</button>
+        <button className="p-4 rounded-lg bg-blue-600 text-white" onClick={convert}>Convert {from.toUpperCase()} to {to.toUpperCase()}</button>
       </div>
     </main>
   );
