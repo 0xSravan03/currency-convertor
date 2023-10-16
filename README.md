@@ -1,8 +1,8 @@
-# Currency Convertor
+# Currency Converter
 
 ## Description
 
-This is a Currency Convertor app made by using react.js, tailwind css and [Currency api]("https://github.com/fawazahmed0/currency-api#readme"). With this app users can easily get the amount convverted to the target currency.
+This is a Currency Converter app made by using react.js, tailwind CSS, and [Currency API]("https://github.com/fawazahmed0/currency-api"). This app lets users quickly convert the amount to the target currency.
 
 ## Image
 
